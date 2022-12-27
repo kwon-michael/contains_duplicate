@@ -30,6 +30,10 @@ public class FindingUniqueNumber {
 //        }
         System.out.println("sorted order");
         treeSet.stream().forEach(System.out::println);
+        /**
+         * The difference with Hashset and Treeset can be seen in how the elements are ordered.
+         * Hashset is a random order while Treeset is ordered numerically from least to greatest element.
+         */
 
 
     }
